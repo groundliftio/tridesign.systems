@@ -1,0 +1,14 @@
+{
+  "name": "tridesign.systems",
+  "version": "1.0.0",
+  "description": "A static website for the triangle design systems meetup",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server public"
+  },
+  "author": "GroundLift",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
+}

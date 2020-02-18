@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'geomanistregular';
+  src: url('/assets/fonts/geomanist-regular-webfont.eot');
+  src: url('/assets/fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/geomanist-regular-webfont.woff2') format('woff2'), url('/assets/fonts/geomanist-regular-webfont.woff') format('woff'), url('/assets/fonts/geomanist-regular-webfont.ttf') format('truetype'), url('/assets/fonts/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'geomanistregular';
+  src: url('/assets/fonts/geomanist-bold-webfont.eot');
+  src: url('/assets/fonts/geomanist-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/geomanist-bold-webfont.woff2') format('woff2'), url('/assets/fonts/geomanist-bold-webfont.woff') format('woff'), url('/assets/fonts/geomanist-bold-webfont.ttf') format('truetype'), url('/assets/fonts/geomanist-bold-webfont.svg#geomanistregular') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --color-gray: #3e5058;
+  --color-green: #8dc546;
+  --color-teal: #68bebc;
+  --color-teal-dark: #59aaa7;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  color: #000;
+  font-family: 'geomanistregular', sans-serif;
+  line-height: 2;
+  margin: 0;
+}
+
+a, a:visited {
+  color: var(--color-teal-dark);
+}
+
+/* components */
+
+.c-container {
+  max-width: 80ch;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  width: 100%;
+}
+
+.c-container--intro {
+  align-items: center;
+  border-bottom: 4px solid var(--color-teal-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.c-display {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.c-heading {
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.c-heading--lg {
+  color: var(--color-green);
+}
+
+.c-heading--sm {
+  color: var(--color-gray);
+}
+
+.c-logo-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .c-logo-container {
+    max-width: 30rem;
+  }
+}
+
+.c-logo {
+  height: auto;
+  width: 100%;
+}
+
+.c-logo--display {
+  width: 80%;
+}
+
+.c-section {
+  position: relative;
+  width: 100%;
+}
+
+.c-subheading {
+  color: var(--color-gray);
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .c-subheading {
+    max-width: 30rem;
+  }
+}
+
+/* helpers */
+
+.h-fill--gray {
+  fill: var(--color-gray);
+}
+
+.h-fill--green {
+  fill: var(--color-green);
+}
+
+.h-fill--teal {
+  fill: var(--color-teal);
+}
+
+.h-fill--teal-dark {
+  fill: var(--color-teal-dark);
+}
