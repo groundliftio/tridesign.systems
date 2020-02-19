@@ -1,15 +1,27 @@
 @font-face {
-  font-family: 'geomanistregular';
-  src: url('/assets/fonts/geomanist-regular-webfont.eot');
-  src: url('/assets/fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/geomanist-regular-webfont.woff2') format('woff2'), url('/assets/fonts/geomanist-regular-webfont.woff') format('woff'), url('/assets/fonts/geomanist-regular-webfont.ttf') format('truetype'), url('/assets/fonts/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+  font-family: "geomanistregular";
+  src: url("/assets/fonts/geomanist-regular-webfont.eot");
+  src: url("/assets/fonts/geomanist-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/geomanist-regular-webfont.woff2") format("woff2"),
+    url("/assets/fonts/geomanist-regular-webfont.woff") format("woff"),
+    url("/assets/fonts/geomanist-regular-webfont.ttf") format("truetype"),
+    url("/assets/fonts/geomanist-regular-webfont.svg#geomanistregular")
+      format("svg");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'geomanistregular';
-  src: url('/assets/fonts/geomanist-bold-webfont.eot');
-  src: url('/assets/fonts/geomanist-bold-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/geomanist-bold-webfont.woff2') format('woff2'), url('/assets/fonts/geomanist-bold-webfont.woff') format('woff'), url('/assets/fonts/geomanist-bold-webfont.ttf') format('truetype'), url('/assets/fonts/geomanist-bold-webfont.svg#geomanistregular') format('svg');
+  font-family: "geomanistregular";
+  src: url("/assets/fonts/geomanist-bold-webfont.eot");
+  src: url("/assets/fonts/geomanist-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/geomanist-bold-webfont.woff2") format("woff2"),
+    url("/assets/fonts/geomanist-bold-webfont.woff") format("woff"),
+    url("/assets/fonts/geomanist-bold-webfont.ttf") format("truetype"),
+    url("/assets/fonts/geomanist-bold-webfont.svg#geomanistregular")
+      format("svg");
   font-weight: 700;
   font-style: normal;
 }
@@ -34,12 +46,13 @@ html {
 
 body {
   color: #000;
-  font-family: 'geomanistregular', sans-serif;
+  font-family: "geomanistregular", sans-serif;
   line-height: 2;
   margin: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: var(--color-teal-dark);
 }
 
@@ -83,13 +96,8 @@ a, a:visited {
 }
 
 .c-logo-container {
+  max-width: 16rem;
   width: 100%;
-}
-
-@media screen and (min-width: 700px) {
-  .c-logo-container {
-    max-width: 30rem;
-  }
 }
 
 .c-logo {
@@ -98,7 +106,7 @@ a, a:visited {
 }
 
 .c-logo--display {
-  width: 80%;
+  width: 32rem;
 }
 
 .c-section {
